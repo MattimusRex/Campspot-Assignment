@@ -1,0 +1,56 @@
+{
+  "search": {
+    "startDate": "2018-06-04",
+    "endDate": "2018-06-06"
+  },
+  "campsites": [
+    {
+      "id": 1,
+      "name": "Reservation Entirely Inside Search Cabin"
+    },
+    {
+      "id": 2,
+      "name": "Comfy Cabin"
+    },
+    {
+      "id": 3,
+      "name": "Rustic Cabin"
+    },
+    {
+      "id": 4,
+      "name": "Rickety Cabin"
+    },
+    {
+      "id": 5,
+      "name": "Cabin in the Woods"
+    },
+	{
+      "id": 6,
+      "name": "Search Entirely Inside Reservation Cabin"
+    },
+	{
+      "id": 7,
+      "name": "Search Partially Overlaps Reservation Cabin"
+    },
+	{
+      "id": 8,
+      "name": "Search Exactly Matches Reservation Cabin"
+    }
+  ],
+  "reservations": [
+    {"campsiteId": 1, "startDate": "2018-06-01", "endDate": "2018-06-03"},
+    {"campsiteId": 1, "startDate": "2018-06-05", "endDate": "2018-06-05"},
+    {"campsiteId": 2, "startDate": "2018-06-01", "endDate": "2018-06-01"},
+    {"campsiteId": 2, "startDate": "2018-06-02", "endDate": "2018-06-03"},
+    {"campsiteId": 2, "startDate": "2018-06-07", "endDate": "2018-06-09"},
+    {"campsiteId": 3, "startDate": "2018-06-01", "endDate": "2018-06-02"},
+    {"campsiteId": 3, "startDate": "2018-06-08", "endDate": "2018-06-09"},
+    {"campsiteId": 4, "startDate": "2018-06-07", "endDate": "2018-06-10"},
+	{"campsiteId": 6, "startDate": "2018-06-03", "endDate": "2018-06-10"},
+	{"campsiteId": 7, "startDate": "2018-06-03", "endDate": "2018-06-05"},
+	{"campsiteId": 7, "startDate": "2018-06-05", "endDate": "2018-06-10"},
+	{"campsiteId": 7, "startDate": "2018-06-03", "endDate": "2018-06-04"},
+	{"campsiteId": 7, "startDate": "2018-06-06", "endDate": "2018-06-10"},
+	{"campsiteId": 8, "startDate": "2018-06-04", "endDate": "2018-06-06"}
+  ]
+}

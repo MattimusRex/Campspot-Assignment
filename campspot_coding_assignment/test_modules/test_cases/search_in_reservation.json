@@ -1,0 +1,15 @@
+{
+  "search": {
+    "startDate": "2018-06-04",
+    "endDate": "2018-06-06"
+  },
+  "campsites": [
+	{
+      "id": 1,
+      "name": "Search Entirely in Reservation Cabin"
+    }
+  ],
+  "reservations": [
+	{"campsiteId": 1, "startDate": "2018-06-03", "endDate": "2018-06-08"}
+  ]
+}

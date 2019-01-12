@@ -1,0 +1,15 @@
+{
+  "search": {
+    "startDate": "2018-06-01",
+    "endDate": "2018-06-06"
+  },
+  "campsites": [
+	{
+      "id": 1,
+      "name": "End of Search and Beginning of Reservation Overlap"
+    }
+  ],
+  "reservations": [
+	{"campsiteId": 1, "startDate": "2018-06-04", "endDate": "2018-06-10"}
+  ]
+}

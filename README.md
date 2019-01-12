@@ -4,7 +4,7 @@ Python modules and test cases for Campspot coding assignment.
 # How to build and run the program
 1) Install Python 3. The python 3 installation files can be found at https://www.python.org/downloads/. macOS users may want to use Homebrew to install python 3 per this guide https://docs.python-guide.org/starting/install3/osx/. Be sure to add python to your system PATH during installation if not using Homebrew.
 2) Clone this repo.
-3) Open a terminal/command prompt and navigate into the campspot_coding_assignment in the repo. You should be in the directory with reservation_solver.py.
+3) Open a terminal/command prompt and navigate into the campspot_coding_assignment repo in the repo. You should be in the directory with reservation_solver.py.
 4) Execute the reservation_solver.py script with a required input file argument.
 "python reservation_solver.py test_modules/test_cases/test-case.json"
 You can also add an optional minimum reservation length argument of 1, 2, or 3.

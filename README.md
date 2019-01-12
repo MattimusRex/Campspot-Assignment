@@ -12,6 +12,10 @@ You can also add an optional minimum reservation length argument of 1, 2, or 3.
 If you have not added python 3 to your system path, you may need to give the absolute path to python 3 in the command like  
 "C:\Users\matth\AppData\Local\Programs\Python\Python37\python reservation_solver.py test_modules/test_cases/"
 5) The program will print the names of the campsites which are valid for the given data.
+6) My tests can be ran with the following commands from the same directory  
+"python -m test_modules.test_reservation_solver"  
+"python -m test_modules.test_reservation_solver_parse_methods"
+
 
 # Explanation of approach to solving the problem
 First I needed to read the json file and parse it into a search, the campsites, and the reservations. Making these separate classes allows for them to more easily be reused or expanded later. Once the data is in a usable state, I needed to analyse the reservations at each campsite and the search to find campsites where the new reservation could be made. For a search to be valid, it must either be entirely before or entirely after each existing reservation. Anything else causes an overlap and is invalid. Then the gap between the search and the reservation must be checked to make sure it is either 0 or at least as large as the minimum reservation length. If not, then the gap could never be filled and the search is not valid.

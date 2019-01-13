@@ -27,4 +27,4 @@ My program allows for a minimum reservation length of 1, 2, or 3, and this could
 
 I also made the assumption that any given date for a reservation was for that entire day and no other day rather then a checkout/checkin system with guests leavining in the morning and arriving in the afternoon. This means that a reservation ending on 6/03/2018 and another reservation starting on 6/04/2018 produce no gap as each day is entirely reserved. 
 
-I chose Python 3 because I have used it for small projects like this one while doing coding in my personal time. Howevever, I have never had an formal training in Python or its coding standards so certain aspects, like comments, may not match the Python standards.
+I chose Python 3 because I have used it for small projects like this one while doing coding in my personal time. Howevever, my experience with python coding standards is limited so certain aspects, like comments, may not match the Python standards.
